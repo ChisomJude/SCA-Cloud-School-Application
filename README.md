@@ -18,5 +18,14 @@ Deploy a  simple Flask app, confirm it run using the script below
 
 ![Build and run App](sca.png)
 
-### View app in Broswer
+### Other Steps
 View Application on Broswer using http://127.0.0.1:5000
+make changes to app file and pushed to branch - Feature
+
+### Docker hub
+Rebuild docker Image  and 
+pushed to dockerhub-- https://hub.docker.com/r/chisomjude/sca-app
+```
+    docker tag sca-app chisomjude/sca-app
+    docker push chisomjude/sca-app
+```
